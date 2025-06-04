@@ -1,4 +1,4 @@
-name: docker_env_streamlit
+name: deployment_streamlit
 channels:
   - conda-forge
   - defaults
