@@ -1,0 +1,15 @@
+{"time":"2025-06-04T13:55:34.898135+02:00","level":"INFO","msg":"stream: starting","core version":"0.20.0","symlink path":"C:\\Users\\ahmd\\Documents\\MLOps_Thermal_Images_BC\\wandb\\run-20250604_135530-jbm1mamr\\logs\\debug-core.log"}
+{"time":"2025-06-04T13:55:37.7199531+02:00","level":"INFO","msg":"stream: created new stream","id":"jbm1mamr"}
+{"time":"2025-06-04T13:55:37.7199531+02:00","level":"INFO","msg":"stream: started","id":"jbm1mamr"}
+{"time":"2025-06-04T13:55:37.7199531+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"jbm1mamr"}
+{"time":"2025-06-04T13:55:37.7199531+02:00","level":"INFO","msg":"sender: started","stream_id":"jbm1mamr"}
+{"time":"2025-06-04T13:55:37.7199531+02:00","level":"INFO","msg":"handler: started","stream_id":"jbm1mamr"}
+{"time":"2025-06-04T13:55:38.1607987+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-04T13:55:38.8871528+02:00","level":"INFO","msg":"stream: closing","id":"jbm1mamr"}
+{"time":"2025-06-04T13:55:38.8871528+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-06-04T13:55:38.8871528+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-06-04T13:55:39.6622157+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-06-04T13:55:39.9850268+02:00","level":"INFO","msg":"handler: closed","stream_id":"jbm1mamr"}
+{"time":"2025-06-04T13:55:39.9850268+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"jbm1mamr"}
+{"time":"2025-06-04T13:55:39.9850268+02:00","level":"INFO","msg":"sender: closed","stream_id":"jbm1mamr"}
+{"time":"2025-06-04T13:55:39.9855778+02:00","level":"INFO","msg":"stream: closed","id":"jbm1mamr"}

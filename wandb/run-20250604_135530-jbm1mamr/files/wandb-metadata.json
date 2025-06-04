@@ -1,0 +1,31 @@
+{
+  "os":  "Windows-10-10.0.19045-SP0",
+  "python":  "CPython 3.10.17",
+  "startedAt":  "2025-06-04T11:55:34.894044Z",
+  "program":  "c:\\Users\\ahmd\\Documents\\MLOps_Thermal_Images_BC\\Streamlit Docker MLOps\\app.py",
+  "codePath":  "Streamlit Docker MLOps\\app.py",
+  "git":  {
+    "remote":  "https://github.com/zobaaer/MLOps_Thermal_Images_BC.git",
+    "commit":  "2d493321bfcbbe27ebb3beae424cd3a9d397c818"
+  },
+  "email":  "zobaer.ahmed.salam@gmail.com",
+  "root":  "C:\\Users\\ahmd\\Documents\\MLOps_Thermal_Images_BC",
+  "host":  "clt-mob-t-7200",
+  "executable":  "C:\\Users\\ahmd\\.conda\\envs\\docker_env_streamlit\\python.exe",
+  "codePathLocal":  "Streamlit Docker MLOps\\app.py",
+  "cpu_count":  4,
+  "cpu_count_logical":  8,
+  "disk":  {
+    "/":  {
+      "total":  "506332180480",
+      "used":  "480850968576"
+    }
+  },
+  "memory":  {
+    "total":  "17027801088"
+  },
+  "cpu":  {
+    "count":  4,
+    "countLogical":  8
+  }
+}

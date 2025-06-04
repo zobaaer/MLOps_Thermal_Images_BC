@@ -9,8 +9,8 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f"Using device: {device}")
 
 # Paths
-model_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "best_model.pth")
-test_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "test")
+model_path = r"C:\Users\ahmd\Documents\MLOps_Thermal_Images_BC\Streamlit Docker MLOps\model\classif_model.pth"
+test_dir = r"C:\Users\ahmd\Documents\MLOps_Thermal_Images_BC\Classification\test"
 
 # Image transformations (same as training)
 transform = transforms.Compose([

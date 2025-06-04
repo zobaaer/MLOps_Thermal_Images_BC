@@ -1,0 +1,15 @@
+Using device: cpu
+Traceback (most recent call last):
+  File "c:\Users\ahmd\Documents\MLOps_Thermal_Images_BC\Streamlit Docker MLOps\app.py", line 11, in <module>
+    from scripts.models.train import ClassificationNet
+  File "c:\Users\ahmd\Documents\MLOps_Thermal_Images_BC\Streamlit Docker MLOps\scripts\models\train.py", line 36, in <module>
+    full_dataset = datasets.ImageFolder(root=data_dir, transform=transform)
+  File "C:\Users\ahmd\.conda\envs\docker_env_streamlit\lib\site-packages\torchvision\datasets\folder.py", line 309, in __init__
+    super().__init__(
+  File "C:\Users\ahmd\.conda\envs\docker_env_streamlit\lib\site-packages\torchvision\datasets\folder.py", line 144, in __init__
+    classes, class_to_idx = self.find_classes(self.root)
+  File "C:\Users\ahmd\.conda\envs\docker_env_streamlit\lib\site-packages\torchvision\datasets\folder.py", line 218, in find_classes
+    return find_classes(directory)
+  File "C:\Users\ahmd\.conda\envs\docker_env_streamlit\lib\site-packages\torchvision\datasets\folder.py", line 40, in find_classes
+    classes = sorted(entry.name for entry in os.scandir(directory) if entry.is_dir())
+FileNotFoundError: [WinError 3] The system cannot find the path specified: '/home/ahmd/MLOps/dataset/train/'
