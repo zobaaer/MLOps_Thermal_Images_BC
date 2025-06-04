@@ -1,5 +1,0 @@
-Train dataset size: 900
-Validation dataset size: 100
-initialize network with kaiming
-Epoch 1 | Train Loss: 0.0178 | Val Loss: 0.1247
-✅ Val loss improved to 0.124673. Resetting counter.
