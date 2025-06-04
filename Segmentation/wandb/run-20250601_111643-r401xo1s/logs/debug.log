@@ -1,0 +1,29 @@
+2025-06-01 11:16:43,814 INFO    MainThread:624068 [wandb_setup.py:_flush():67] Current SDK version is 0.19.8
+2025-06-01 11:16:43,814 INFO    MainThread:624068 [wandb_setup.py:_flush():67] Configure stats pid to 624068
+2025-06-01 11:16:43,814 INFO    MainThread:624068 [wandb_setup.py:_flush():67] Loading settings from /home/ahmd/.config/wandb/settings
+2025-06-01 11:16:43,815 INFO    MainThread:624068 [wandb_setup.py:_flush():67] Loading settings from /home/ahmd/MLOps/wandb/settings
+2025-06-01 11:16:43,815 INFO    MainThread:624068 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-06-01 11:16:43,815 INFO    MainThread:624068 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /home/ahmd/MLOps/wandb/run-20250601_111643-r401xo1s/logs/debug.log
+2025-06-01 11:16:43,815 INFO    MainThread:624068 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /home/ahmd/MLOps/wandb/run-20250601_111643-r401xo1s/logs/debug-internal.log
+2025-06-01 11:16:43,815 INFO    MainThread:624068 [wandb_init.py:init():761] calling init triggers
+2025-06-01 11:16:43,815 INFO    MainThread:624068 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'val_ratio': 0.1, 'batch_size': 4, 'init_type': 'kaiming', 'loss': 'focal_tversky', 'lr': 0.00085939, 'n_epochs': 1, 't': 4, 'base_filters': 16, 'depth': 5, 'alpha': 0.56814, 'gamma': 1.52575, 'accum_steps': 4, '_wandb': {}}
+2025-06-01 11:16:43,815 INFO    MainThread:624068 [wandb_init.py:init():784] starting backend
+2025-06-01 11:16:43,815 INFO    MainThread:624068 [wandb_init.py:init():788] sending inform_init request
+2025-06-01 11:16:43,817 INFO    MainThread:624068 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-06-01 11:16:43,817 INFO    MainThread:624068 [wandb_init.py:init():798] backend started and connected
+2025-06-01 11:16:43,818 INFO    MainThread:624068 [wandb_init.py:init():891] updated telemetry
+2025-06-01 11:16:43,818 INFO    MainThread:624068 [wandb_init.py:init():915] communicating run to backend with 90.0 second timeout
+2025-06-01 11:16:44,550 INFO    MainThread:624068 [wandb_init.py:init():990] starting run threads in backend
+2025-06-01 11:16:44,629 INFO    MainThread:624068 [wandb_run.py:_console_start():2375] atexit reg
+2025-06-01 11:16:44,629 INFO    MainThread:624068 [wandb_run.py:_redirect():2227] redirect: wrap_raw
+2025-06-01 11:16:44,630 INFO    MainThread:624068 [wandb_run.py:_redirect():2292] Wrapping output streams.
+2025-06-01 11:16:44,630 INFO    MainThread:624068 [wandb_run.py:_redirect():2315] Redirects installed.
+2025-06-01 11:16:44,631 INFO    MainThread:624068 [wandb_init.py:init():1032] run started, returning control to user process
+2025-06-01 11:17:16,593 INFO    MainThread:624068 [wandb_run.py:_finish():2112] finishing run zobaer-ahmed-salam-zhaw/model_MLOps_old_dataset/r401xo1s
+2025-06-01 11:17:16,594 INFO    MainThread:624068 [wandb_run.py:_atexit_cleanup():2340] got exitcode: 0
+2025-06-01 11:17:16,594 INFO    MainThread:624068 [wandb_run.py:_restore():2322] restore
+2025-06-01 11:17:16,595 INFO    MainThread:624068 [wandb_run.py:_restore():2328] restore done
+2025-06-01 11:17:17,516 INFO    MainThread:624068 [wandb_run.py:_footer_history_summary_info():3956] rendering history
+2025-06-01 11:17:17,517 INFO    MainThread:624068 [wandb_run.py:_footer_history_summary_info():3988] rendering summary
+2025-06-01 11:17:17,519 INFO    MainThread:624068 [wandb_run.py:_footer_sync_info():3917] logging synced files

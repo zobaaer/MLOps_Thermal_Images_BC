@@ -1,0 +1,50 @@
+_wandb:
+    value:
+        cli_version: 0.19.8
+        m: []
+        python_version: 3.11.11
+        t:
+            "1":
+                - 1
+                - 41
+                - 55
+            "2":
+                - 1
+                - 41
+                - 55
+            "3":
+                - 2
+                - 13
+                - 16
+                - 23
+                - 55
+            "4": 3.11.11
+            "5": 0.19.8
+            "8":
+                - 5
+            "12": 0.19.8
+            "13": linux-x86_64
+accum_steps:
+    value: 4
+alpha:
+    value: 0.56814
+base_filters:
+    value: 16
+batch_size:
+    value: 4
+depth:
+    value: 5
+gamma:
+    value: 1.52575
+init_type:
+    value: kaiming
+loss:
+    value: focal_tversky
+lr:
+    value: 0.00085939
+n_epochs:
+    value: 100
+t:
+    value: 4
+val_ratio:
+    value: 0.1
