@@ -1,0 +1,6 @@
+data/
+checkpoints_segmentation/
+runs/
+wandb/
+*.pth
+*.pyc
