@@ -1,0 +1,17 @@
+name: docker_env_streamlit
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10  # or your preferred version
+  - pytorch
+  - torchvision
+  - torchaudio
+  - numpy
+  - matplotlib
+  - opencv
+  - pillow
+  - streamlit
+  - pip
+  - pip:
+      - torch  # redundant if conda already installs torch, but safe for compatibility
