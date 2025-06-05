@@ -1,17 +1,18 @@
-name: deployment_streamlit
+name: streamlit_app_env
 channels:
-  - conda-forge
   - defaults
+  - conda-forge
+  - pytorch
+  - nvidia
 dependencies:
-  - python=3.10  # or your preferred version
+  - python=3.10
+  - pip
   - pytorch
   - torchvision
-  - torchaudio
   - numpy
-  - matplotlib
   - opencv
   - pillow
-  - streamlit
-  - pip
+  - scipy
   - pip:
-      - torch  # redundant if conda already installs torch, but safe for compatibility
+      - streamlit
+      - torchmetrics

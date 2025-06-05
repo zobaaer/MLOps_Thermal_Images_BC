@@ -1,21 +1,24 @@
-# Use Mambaforge for fast conda installs
-FROM condaforge/mambaforge:latest
+# Base image with Miniconda
+FROM continuumio/miniconda3
 
 # Set working directory
 WORKDIR /app
 
-# Copy environment file and app code
+# Copy environment file
 COPY environment.yml .
-COPY . /app
 
-# Create conda environment
-RUN mamba env create -f environment.yml
+# Create the environment
+RUN conda env create -f environment.yml
 
-# Activate environment and set PATH
-SHELL ["conda", "run", "-n", "my_app_env", "/bin/bash", "-c"]
+# Make sure conda is initialized
+SHELL ["conda", "run", "-n", "streamlit_app_env", "/bin/bash", "-c"]
 
-# Expose Streamlit's default port
+# Copy your app code
+COPY . .
+
+# Expose Streamlit port
 EXPOSE 8501
 
 # Run the app
-CMD ["conda", "run", "--no-capture-output", "-n", "my_app_env", "streamlit", "run", "app.py"]
+CMD ["conda", "run", "-n", "streamlit_app_env", "streamlit", "run", "app.py"]
+
